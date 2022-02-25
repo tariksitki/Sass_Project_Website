@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("img/model-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  color: white;
+}
+
+.container .header .links {
+  margin-top: 1.5rem;
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .header .links span {
+  color: #ff652f;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  font-size: 1.55rem;
+}
+
+.container .header .links span:hover {
+  color: #19159e;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.container .header .links a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.container .header .links a:hover {
+  color: #19159e;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  background-color: #ff652f;
+}
+
+.container .content {
+  text-align: center;
+  margin-top: 16%;
+  height: 27vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.container .content h2 {
+  font-size: 2rem;
+}
+
+.container .content .middle {
+  border-bottom: 2px solid white;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.container .content .middle span {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
